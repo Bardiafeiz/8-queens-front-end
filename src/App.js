@@ -23,7 +23,7 @@ class App extends React.Component {
 
     get = () => {
         let data
-        axios.get('http://localhost:8000/')
+        axios.get('https://eight-queens-backend.herokuapp.com/')
             .then(res => {
                 data = res.data
                 this.setState({
